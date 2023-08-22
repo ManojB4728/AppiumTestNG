@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T17:46:42 IST" name="Smoke" finished-at="2023-08-22T17:56:36 IST" duration-ms="594033">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T17:46:42 IST" name="Test1" finished-at="2023-08-22T17:48:51 IST" duration-ms="129593">
+      <class name="login.LG001_Verify_User_Is_Able_To_Login_With_Valid_Credential">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:login.LG001_Verify_User_Is_Able_To_Login_With_Valid_Credential@2ce86164]" started-at="2023-08-22T17:46:42 IST" name="openkuzaApplication" finished-at="2023-08-22T17:46:54 IST" duration-ms="12139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="loginToKuzaApplication()[pri:0, instance:login.LG001_Verify_User_Is_Able_To_Login_With_Valid_Credential@2ce86164]" started-at="2023-08-22T17:46:54 IST" name="loginToKuzaApplication" finished-at="2023-08-22T17:48:51 IST" duration-ms="116822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToKuzaApplication -->
+        <test-method is-config="true" signature="closeKuzaApplication()[pri:0, instance:login.LG001_Verify_User_Is_Able_To_Login_With_Valid_Credential@2ce86164]" started-at="2023-08-22T17:48:51 IST" name="closeKuzaApplication" finished-at="2023-08-22T17:48:51 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeKuzaApplication -->
+      </class> <!-- login.LG001_Verify_User_Is_Able_To_Login_With_Valid_Credential -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-08-22T17:48:52 IST" name="Test2" finished-at="2023-08-22T17:49:21 IST" duration-ms="29721">
+      <class name="login.LG002_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Invalid_Password">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:login.LG002_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Invalid_Password@37f21974]" started-at="2023-08-22T17:48:52 IST" name="openkuzaApplication" finished-at="2023-08-22T17:49:02 IST" duration-ms="10613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndInvalidPassword()[pri:0, instance:login.LG002_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Invalid_Password@37f21974]" started-at="2023-08-22T17:49:02 IST" name="enterInvalidUsernameAndInvalidPassword" finished-at="2023-08-22T17:49:21 IST" duration-ms="18440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:login.LG002_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Invalid_Password@37f21974]" started-at="2023-08-22T17:49:21 IST" name="closeTheApplication" finished-at="2023-08-22T17:49:21 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- login.LG002_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Invalid_Password -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-08-22T17:49:21 IST" name="Test3" finished-at="2023-08-22T17:49:51 IST" duration-ms="30147">
+      <class name="login.LG003_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Valid_Password">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:login.LG003_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Valid_Password@303e3593]" started-at="2023-08-22T17:49:21 IST" name="openkuzaApplication" finished-at="2023-08-22T17:49:32 IST" duration-ms="10641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndValidPassword()[pri:0, instance:login.LG003_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Valid_Password@303e3593]" started-at="2023-08-22T17:49:32 IST" name="enterInvalidUsernameAndValidPassword" finished-at="2023-08-22T17:49:51 IST" duration-ms="18938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:login.LG003_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Valid_Password@303e3593]" started-at="2023-08-22T17:49:51 IST" name="closeTheApplication" finished-at="2023-08-22T17:49:51 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- login.LG003_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Invalid_Username_And_Valid_Password -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-08-22T17:49:51 IST" name="Test4" finished-at="2023-08-22T17:50:21 IST" duration-ms="29952">
+      <class name="login.LG004_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Valid_Username_But_Invalid_Password">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:login.LG004_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Valid_Username_But_Invalid_Password@10c8f62]" started-at="2023-08-22T17:49:51 IST" name="openkuzaApplication" finished-at="2023-08-22T17:50:02 IST" duration-ms="10786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndValidPassword()[pri:0, instance:login.LG004_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Valid_Username_But_Invalid_Password@10c8f62]" started-at="2023-08-22T17:50:02 IST" name="enterInvalidUsernameAndValidPassword" finished-at="2023-08-22T17:50:21 IST" duration-ms="18527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:login.LG004_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Valid_Username_But_Invalid_Password@10c8f62]" started-at="2023-08-22T17:50:21 IST" name="closeTheApplication" finished-at="2023-08-22T17:50:21 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- login.LG004_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Enter_Valid_Username_But_Invalid_Password -->
+    </test> <!-- Test4 -->
+    <test started-at="2023-08-22T17:50:21 IST" name="Test5" finished-at="2023-08-22T17:50:47 IST" duration-ms="25837">
+      <class name="login.LG005_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Does_Not_Enter_Username_And_Password">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:login.LG005_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Does_Not_Enter_Username_And_Password@5fb97279]" started-at="2023-08-22T17:50:21 IST" name="openkuzaApplication" finished-at="2023-08-22T17:50:32 IST" duration-ms="10536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndValidPassword()[pri:0, instance:login.LG005_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Does_Not_Enter_Username_And_Password@5fb97279]" started-at="2023-08-22T17:50:32 IST" name="enterInvalidUsernameAndValidPassword" finished-at="2023-08-22T17:50:47 IST" duration-ms="14740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:login.LG005_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Does_Not_Enter_Username_And_Password@5fb97279]" started-at="2023-08-22T17:50:47 IST" name="closeTheApplication" finished-at="2023-08-22T17:50:47 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- login.LG005_Verifying_User_Is_Able_To_Get_Error_Message_When_User_Does_Not_Enter_Username_And_Password -->
+    </test> <!-- Test5 -->
+    <test started-at="2023-08-22T17:50:47 IST" name="Test6" finished-at="2023-08-22T17:53:54 IST" duration-ms="187173">
+      <class name="Sync.AY001_Verify_User_Is_Able_To_Sync_Data_To_Cloud">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:Sync.AY001_Verify_User_Is_Able_To_Sync_Data_To_Cloud@32cb636e]" started-at="2023-08-22T17:50:47 IST" name="openkuzaApplication" finished-at="2023-08-22T17:50:58 IST" duration-ms="10549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndValidPassword()[pri:0, instance:Sync.AY001_Verify_User_Is_Able_To_Sync_Data_To_Cloud@32cb636e]" started-at="2023-08-22T17:50:58 IST" name="enterInvalidUsernameAndValidPassword" finished-at="2023-08-22T17:53:54 IST" duration-ms="175986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:Sync.AY001_Verify_User_Is_Able_To_Sync_Data_To_Cloud@32cb636e]" started-at="2023-08-22T17:53:54 IST" name="closeTheApplication" finished-at="2023-08-22T17:53:54 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- Sync.AY001_Verify_User_Is_Able_To_Sync_Data_To_Cloud -->
+    </test> <!-- Test6 -->
+    <test started-at="2023-08-22T17:53:54 IST" name="Test7" finished-at="2023-08-22T17:56:36 IST" duration-ms="161520">
+      <class name="Sync.AY002_Verify_User_Is_Able_To_Sync_Data_To_Cloud_In_Menu_Section_And_Cancel_The_Sync">
+        <test-method is-config="true" signature="openkuzaApplication()[pri:0, instance:Sync.AY002_Verify_User_Is_Able_To_Sync_Data_To_Cloud_In_Menu_Section_And_Cancel_The_Sync@62dae245]" started-at="2023-08-22T17:53:54 IST" name="openkuzaApplication" finished-at="2023-08-22T17:54:05 IST" duration-ms="10588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openkuzaApplication -->
+        <test-method signature="enterInvalidUsernameAndValidPassword()[pri:0, instance:Sync.AY002_Verify_User_Is_Able_To_Sync_Data_To_Cloud_In_Menu_Section_And_Cancel_The_Sync@62dae245]" started-at="2023-08-22T17:54:05 IST" name="enterInvalidUsernameAndValidPassword" finished-at="2023-08-22T17:56:35 IST" duration-ms="150275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="closeTheApplication()[pri:0, instance:Sync.AY002_Verify_User_Is_Able_To_Sync_Data_To_Cloud_In_Menu_Section_And_Cancel_The_Sync@62dae245]" started-at="2023-08-22T17:56:35 IST" name="closeTheApplication" finished-at="2023-08-22T17:56:36 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- Sync.AY002_Verify_User_Is_Able_To_Sync_Data_To_Cloud_In_Menu_Section_And_Cancel_The_Sync -->
+    </test> <!-- Test7 -->
+  </suite> <!-- Smoke -->
+</testng-results>
